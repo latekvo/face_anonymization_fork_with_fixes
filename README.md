@@ -43,7 +43,7 @@ from src.diffusers.pipelines.referencenet.pipeline_referencenet import (
 ```python
 face_model_id = "hkung/face-anon-simple"
 clip_model_id = "openai/clip-vit-large-patch14"
-sd_model_id = "stabilityai/stable-diffusion-2-1"
+sd_model_id = "sd2-community/stable-diffusion-2-1"
 
 unet = UNet2DConditionModel.from_pretrained(
     face_model_id, subfolder="unet", use_safetensors=True

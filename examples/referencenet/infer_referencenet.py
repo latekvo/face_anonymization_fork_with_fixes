@@ -22,7 +22,7 @@ def parse_args():
     parser.add_argument(
         "--pretrained_model_name_or_path",
         type=str,
-        default="stabilityai/stable-diffusion-2-1",
+        default="sd2-community/stable-diffusion-2-1",
         required=False,
         help="Path to pretrained model or model identifier from huggingface.co/models.",
     )
